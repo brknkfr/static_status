@@ -1,32 +1,37 @@
 [
   {
+    "site": "ftp.usa.openbsd.org (curl)",
+    "command": "curl",
+    "status": "Fail",
+    "time_sec": "",
+    "updated": "2023-11-15 06:12:36 UTC"
+  },
+  {
     "site": "Always down (/bin/false)",
     "command": "script",
     "status": "Fail",
-    "updated": "2023-10-15 07:11:45 UTC"
+    "time_sec": "",
+    "updated": "2023-11-15 06:12:36 UTC"
   },
   {
     "site": "www.heise.de (curl)",
     "command": "curl",
     "status": "OK",
-    "updated": "2023-10-15 07:11:45 UTC"
-  },
-  {
-    "site": "ftp.usa.openbsd.org (curl)",
-    "command": "curl",
-    "status": "OK",
-    "updated": "2023-10-15 07:11:45 UTC"
+    "time_sec": "0",
+    "updated": "2023-11-15 06:12:36 UTC"
   },
   {
     "site": "DNS @ Google (nc)",
     "command": "nc",
     "status": "OK",
-    "updated": "2023-10-15 07:11:45 UTC"
+    "time_sec": "0",
+    "updated": "2023-11-15 06:12:36 UTC"
   },
   {
     "site": "Always up (/bin/true)",
     "command": "script",
     "status": "OK",
-    "updated": "2023-10-15 07:11:45 UTC"
+    "time_sec": "0",
+    "updated": "2023-11-15 06:12:36 UTC"
   }
 ]
