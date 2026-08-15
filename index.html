@@ -6,33 +6,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚦</text></svg>">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22%3E%3Ctext%20y=%22.9em%22%20font-size=%2290%22%3E🚦%3C/text%3E%3C/svg%3E">
 </head>
 <body>
 <div class="container">
-<div class="pb-2 mt-5 mb-2 border-bottom">
-	<h1>
-		Status Page
-		<span class="float-right d-none d-sm-block">
-			<a href="https://github.com/Cyclenerd/static_status" class="btn btn-primary" role="button">
-				<i class="fas fa-home"></i>
-				Homepage
-			</a>
-		</span>
-	</h1>
-</div>
-
-<div class="d-sm-none d-md-none d-lg-none d-xl-none my-3">
-	<a href="https://github.com/Cyclenerd/static_status" class="btn btn-primary" role="button">
-		<i class="fas fa-home"></i>
-		Homepage
-	</a>
-</div>
+<header class="d-flex align-items-center justify-content-center py-3 mb-4 border-bottom">
+	<h1 class="col-md-8">Status Page</h1>
+	<div class="col-md-4 text-end d-none d-md-block">
+		<a href="https://github.com/Cyclenerd/static_status" class="btn btn-primary" role="button"><i class="fa-solid fa-house-chimney"></i> Homepage</a>
+	</div>
+</header>
 <div class="card my-3">
 	<div class="card-header">
-		<i class="fas fa-wrench"></i>
+		<i class="fa-solid fa-wrench"></i>
 		Maintenance
 	</div>
 	<div class="card-body">
@@ -45,16 +33,12 @@ This status page was generated with GitHub Action.
 	<ul class="list-group">
 		<li class="list-group-item list-group-item-danger">Outage</li>
 <li class="list-group-item d-flex justify-content-between align-items-center">
-Always down (/bin/false)
-<span class="badge badge-pill badge-danger"><i class="fas fa-times"></i> </span>
-</li>
-</ul></div>
-<div class="my-3">
-	<ul class="list-group">
-		<li class="list-group-item list-group-item-warning">Degraded</li>
-<li class="list-group-item d-flex justify-content-between align-items-center">
 Always degraded (exit 80)
-<span class="badge badge-pill badge-warning badge"><i class="fas fa-times"></i> </span>
+<span class="badge rounded-pill text-bg-danger"><i class="fa-solid fa-xmark"></i> </span>
+</li>
+<li class="list-group-item d-flex justify-content-between align-items-center">
+Always down (/bin/false)
+<span class="badge rounded-pill text-bg-danger"><i class="fa-solid fa-xmark"></i> </span>
 </li>
 </ul></div>
 <div class="my-3">
@@ -62,25 +46,25 @@ Always degraded (exit 80)
 		<li class="list-group-item list-group-item-success">Operational</li>
 <li class="list-group-item d-flex justify-content-between align-items-center">
 www.heise.de (curl)
-	<span class="badge badge-pill badge-success"><i class="fas fa-check"></i></span>
+	<span class="badge rounded-pill text-bg-success"><i class="fa-solid fa-check"></i></span>
 </li>
 <li class="list-group-item d-flex justify-content-between align-items-center">
 ftp.usa.openbsd.org (curl)
-	<span class="badge badge-pill badge-success"><i class="fas fa-check"></i></span>
+	<span class="badge rounded-pill text-bg-success"><i class="fa-solid fa-check"></i></span>
 </li>
 <li class="list-group-item d-flex justify-content-between align-items-center">
 DNS @ Google (nc)
-	<span class="badge badge-pill badge-success"><i class="fas fa-check"></i></span>
+	<span class="badge rounded-pill text-bg-success"><i class="fa-solid fa-check"></i></span>
 </li>
 <li class="list-group-item d-flex justify-content-between align-items-center">
 Always up (/bin/true)
-	<span class="badge badge-pill badge-success"><i class="fas fa-check"></i></span>
+	<span class="badge rounded-pill text-bg-success"><i class="fa-solid fa-check"></i></span>
 </li>
 </ul></div>
 <hr class="mt-4">
 <footer>
 	<p>Powered by <a href="https://github.com/Cyclenerd/static_status">static_status</a></p>
-	<p class="text-muted">2026-07-15 07:54:12 UTC</p>
+	<p class="text-muted">2026-08-15 06:23:56 UTC</p>
 </footer>
 </div>
 <!-- Powered by https://github.com/Cyclenerd/static_status -->
